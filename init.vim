@@ -22,8 +22,6 @@ call plug#begin('~/.vim/plugged')
 call plug#end()
 
 " 【vim全体設定】
-" カラースキームをVSCode風にする
-colorscheme codedark
 " 無名レジスタを使って yank/paste する場合はクリップボードを経由させる
 set clipboard+=unnamed
 " 小文字検索時に大文字小文字を区別しない
