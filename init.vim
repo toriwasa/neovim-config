@@ -9,7 +9,7 @@ let g:loaded_netrwFileHandlers  = 1
 " 【plugin読み込み設定】
 " 一時的に使わないpluginはコメントアウトする
 call plug#begin('~/.vim/plugged')
-    Plug 'tpope/vim-surround'
+    Plug 'machakann/vim-sandwich'
     Plug 'tpope/vim-speeddating'
     Plug 'tpope/vim-repeat'
     Plug 'inkarkat/vim-ReplaceWithRegister'
