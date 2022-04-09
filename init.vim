@@ -15,6 +15,7 @@ call plug#begin('~/.vim/plugged')
     Plug 'inkarkat/vim-ReplaceWithRegister'
     Plug 'arthurxavierx/vim-caser'
     Plug 'michaeljsmith/vim-indent-object'
+    Plug 'kana/vim-textobj-user'
     Plug 'lambdalisue/fern.vim'
     Plug 'lambdalisue/fern-hijack.vim'
     Plug 'lambdalisue/fern-bookmark.vim'
