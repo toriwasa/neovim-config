@@ -19,7 +19,8 @@ call plug#begin('~/.vim/plugged')
     Plug 'lambdalisue/fern.vim'
     Plug 'lambdalisue/fern-hijack.vim'
     Plug 'lambdalisue/fern-bookmark.vim'
-    Plug 'tomasiser/vim-code-dark'
+    Plug 'rebelot/kanagawa.nvim'
+    " Plug 'tomasiser/vim-code-dark'
 call plug#end()
 
 " 【vim全体設定】
