@@ -9,4 +9,3 @@ call textobj#user#plugin('jabraces', {
 \         'select-i': 'ijk'
 \      },
 \    })
-

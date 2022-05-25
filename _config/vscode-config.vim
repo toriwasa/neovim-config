@@ -12,4 +12,3 @@ nnoremap <leader>yP :call VSCodeNotify('copyFilePath')<CR>
 nnoremap <leader>yp :call VSCodeNotify('copyRelativeFilePath')<CR>
 " copy file name with extention
 nnoremap <leader>yf :call VSCodeNotify('copy-file-name.copyFileName')<CR>
-
