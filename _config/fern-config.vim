@@ -94,7 +94,7 @@ endfunction
 
 " fernウィンドウが開くときに毎回初期化関数を実行する
 augroup fern-custom
-  " fern-custom 内のautocmd定義を削除
+  " fern-custom 内の autocmd 定義を削除
   " :source コマンド経由でこのファイルが2回以上呼ばれても
   " fern-custom 内の autocmd が重複定義されないようにする
   autocmd! *
