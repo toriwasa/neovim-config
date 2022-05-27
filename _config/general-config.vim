@@ -23,7 +23,7 @@ set splitbelow
 set splitright
 
 " 画面再描画時に検索ハイライトを消す
-nnoremap <C-l> :nohlsearch<CR><C-L>
+nnoremap <C-l> :nohlsearch<CR><C-l>
 
 " Markdown の Lint Error を通常テキスト同様のハイライト設定にする
 highlight link markdownError Normal
