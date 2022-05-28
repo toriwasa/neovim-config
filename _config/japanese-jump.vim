@@ -12,6 +12,7 @@ noremap <leader>fn fよ
 noremap <leader>f\ fん
 noremap <leader>f, f、
 noremap <leader>f. f。
+noremap <leader>f/ fー
 
 noremap <leader>ffj fか
 noremap <leader>ffi fき
@@ -97,7 +98,6 @@ noremap <leader>fqy fゃ
 noremap <leader>fqh fゅ
 noremap <leader>fqn fょ
 noremap <leader>fqu fっ
-noremap <leader>fq/ f・
 
 " F-search
 noremap <leader>Fj Fあ
@@ -111,6 +111,7 @@ noremap <leader>Fn Fよ
 noremap <leader>F\ Fん
 noremap <leader>F, F、
 noremap <leader>F. F。
+noremap <leader>F/ Fー
 
 noremap <leader>Ffj Fか
 noremap <leader>Ffi Fき
@@ -210,6 +211,7 @@ noremap <leader>tn tよ
 noremap <leader>t\ tん
 noremap <leader>t, t、
 noremap <leader>t. t。
+noremap <leader>t/ tー
 
 noremap <leader>tfj tか
 noremap <leader>tfi tき
@@ -309,6 +311,7 @@ noremap <leader>Tn Tよ
 noremap <leader>T\ Tん
 noremap <leader>T, T、
 noremap <leader>T. T。
+noremap <leader>T/ Tー
 
 noremap <leader>Tfj Tか
 noremap <leader>Tfi Tき
