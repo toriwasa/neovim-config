@@ -4,6 +4,12 @@ if ($null -eq $configDir) {
     $configDir = "$HOME/.config"
     [System.Environment]::SetEnvironmentVariable("XDG_CONFIG_HOME", $configDir, "User")
 }
+
+# 設定ファイル置き場ディレクトリが存在しない場合は作成する
+if ( -not (Test-Path -Path $configDir) ) {
+    New-Item -Type Directory -Path $configDir
+}
+
 # 作成対象パスを削除しておく
 $targetNeovimConfigDir = "$configDir/nvim"
 if (Test-Path -Path $targetNeovimConfigDir) {
